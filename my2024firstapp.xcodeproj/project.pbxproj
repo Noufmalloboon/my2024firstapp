@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4232362C5804680051AAF1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4232352C5804680051AAF1 /* HomeVC.swift */; };
+		1E4232382C5804F00051AAF1 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4232372C5804F00051AAF1 /* HomeTableViewCell.swift */; };
+		1E561D2D2C57E4FC00E3C0EE /* MyTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E561D2C2C57E4FC00E3C0EE /* MyTableViewVC.swift */; };
 		1EB629FE2C4C03A7000BDA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB629FD2C4C03A7000BDA50 /* AppDelegate.swift */; };
 		1EB62A002C4C03A7000BDA50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB629FF2C4C03A7000BDA50 /* SceneDelegate.swift */; };
 		1EB62A022C4C03A7000BDA50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB62A012C4C03A7000BDA50 /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		1EB62A152C4C03AA000BDA50 /* my2024firstappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB62A142C4C03AA000BDA50 /* my2024firstappTests.swift */; };
 		1EB62A1F2C4C03AA000BDA50 /* my2024firstappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB62A1E2C4C03AA000BDA50 /* my2024firstappUITests.swift */; };
 		1EB62A212C4C03AA000BDA50 /* my2024firstappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB62A202C4C03AA000BDA50 /* my2024firstappUITestsLaunchTests.swift */; };
+		1EB62A2E2C4C1BB5000BDA50 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB62A2D2C4C1BB5000BDA50 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E4232352C5804680051AAF1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1E4232372C5804F00051AAF1 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		1E561D2C2C57E4FC00E3C0EE /* MyTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewVC.swift; sourceTree = "<group>"; };
 		1EB629FA2C4C03A7000BDA50 /* my2024firstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my2024firstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB629FD2C4C03A7000BDA50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EB629FF2C4C03A7000BDA50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		1EB62A1A2C4C03AA000BDA50 /* my2024firstappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = my2024firstappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB62A1E2C4C03AA000BDA50 /* my2024firstappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my2024firstappUITests.swift; sourceTree = "<group>"; };
 		1EB62A202C4C03AA000BDA50 /* my2024firstappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my2024firstappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EB62A2D2C4C1BB5000BDA50 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +111,13 @@
 				1EB629FF2C4C03A7000BDA50 /* SceneDelegate.swift */,
 				1EB62A012C4C03A7000BDA50 /* ViewController.swift */,
 				1EB62A032C4C03A7000BDA50 /* Main.storyboard */,
+				1EB62A2D2C4C1BB5000BDA50 /* SecondVC.swift */,
 				1EB62A062C4C03AA000BDA50 /* Assets.xcassets */,
 				1EB62A082C4C03AA000BDA50 /* LaunchScreen.storyboard */,
 				1EB62A0B2C4C03AA000BDA50 /* Info.plist */,
+				1E561D2C2C57E4FC00E3C0EE /* MyTableViewVC.swift */,
+				1E4232352C5804680051AAF1 /* HomeVC.swift */,
+				1E4232372C5804F00051AAF1 /* HomeTableViewCell.swift */,
 			);
 			path = my2024firstapp;
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			files = (
 				1EB62A022C4C03A7000BDA50 /* ViewController.swift in Sources */,
 				1EB629FE2C4C03A7000BDA50 /* AppDelegate.swift in Sources */,
+				1E4232382C5804F00051AAF1 /* HomeTableViewCell.swift in Sources */,
+				1EB62A2E2C4C1BB5000BDA50 /* SecondVC.swift in Sources */,
+				1E4232362C5804680051AAF1 /* HomeVC.swift in Sources */,
 				1EB62A002C4C03A7000BDA50 /* SceneDelegate.swift in Sources */,
+				1E561D2D2C57E4FC00E3C0EE /* MyTableViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
